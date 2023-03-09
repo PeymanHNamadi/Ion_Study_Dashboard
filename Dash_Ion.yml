@@ -1,0 +1,15 @@
+name: Dash_Ion
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - matplotlib
+  - pandas
+  - holoviews
+  - hvplot
+  - panel
+  - pillow == 9.0.1
+  - pip:
+    - scikit-learn
+    - tensorflow
