@@ -1,8 +1,7 @@
-name: Dash_Ion
+name: dash_ion
 channels:
   - conda-forge
   - pyviz
-  - plotly
   - defaults
 dependencies:
   - python=3.7
@@ -10,8 +9,12 @@ dependencies:
   - numpy
   - pandas
   - panel
-  - joblib
-  - keras
   - bokeh
   - hvplot
   - holoviews
+  - jupyter
+  - pip:
+    - keras==2.11
+    - tensorflow==2.11
+    - joblib
+    - scikit-learn
